@@ -563,3 +563,12 @@ color:var(--muted);
 font-size:1rem;
 
 }
+.school-logo{
+
+width:54px;
+
+height:54px;
+
+object-fit:contain;
+
+} 
