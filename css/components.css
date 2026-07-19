@@ -1,0 +1,283 @@
+/* ==========================================
+   COMPONENTS
+   Designed & Developed by Nezaad Industries
+========================================== */
+
+.glass-card,
+.timeline-card,
+.feature-card,
+.campus-card,
+.contact-card,
+.principal-card,
+.quote-card,
+.cta-card{
+
+background:rgba(255,255,255,.72);
+
+backdrop-filter:blur(24px);
+
+-webkit-backdrop-filter:blur(24px);
+
+border:1px solid rgba(255,255,255,.5);
+
+border-radius:30px;
+
+padding:38px;
+
+box-shadow:
+0 20px 60px rgba(0,0,0,.07);
+
+transition:.35s ease;
+
+}
+
+.glass-card:hover,
+.timeline-card:hover,
+.feature-card:hover,
+.campus-card:hover,
+.contact-card:hover,
+.principal-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 30px 70px rgba(0,0,0,.10);
+
+}
+
+.glass-card h3,
+.timeline-card h3,
+.feature-card h3,
+.campus-card h3{
+
+font-size:1.45rem;
+
+margin-bottom:18px;
+
+}
+
+.glass-card p,
+.timeline-card p,
+.feature-card p,
+.campus-card p,
+.contact-card p,
+.principal-card p{
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+.timeline-card span{
+
+display:inline-block;
+
+margin-bottom:16px;
+
+padding:8px 16px;
+
+border-radius:999px;
+
+background:#111;
+
+color:white;
+
+font-size:.85rem;
+
+font-weight:700;
+
+}
+
+.feature-icon{
+
+font-size:2.4rem;
+
+margin-bottom:22px;
+
+}
+
+.primary-btn{
+
+display:inline-flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:16px 34px;
+
+border-radius:999px;
+
+background:#111;
+
+color:white;
+
+font-weight:700;
+
+transition:.35s;
+
+}
+
+.primary-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 20px 40px rgba(0,0,0,.18);
+
+}
+
+.secondary-btn{
+
+display:inline-flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:16px 34px;
+
+border-radius:999px;
+
+background:white;
+
+border:1px solid rgba(0,0,0,.08);
+
+font-weight:600;
+
+transition:.35s;
+
+}
+
+.secondary-btn:hover{
+
+transform:translateY(-4px);
+
+}
+
+.contact-btn{
+
+display:inline-block;
+
+margin-top:24px;
+
+padding:14px 26px;
+
+border-radius:999px;
+
+background:#111;
+
+color:white;
+
+font-weight:600;
+
+transition:.35s;
+
+}
+
+.contact-btn:hover{
+
+transform:translateY(-3px);
+
+}
+
+.quote-card{
+
+text-align:center;
+
+padding:80px 60px;
+
+}
+
+.quote-card h2{
+
+font-size:clamp(2rem,5vw,3.8rem);
+
+font-weight:800;
+
+line-height:1.2;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.cta{
+
+padding-top:30px;
+
+}
+
+.cta-card{
+
+text-align:center;
+
+padding:80px;
+
+}
+
+.cta-card p{
+
+font-size:1.2rem;
+
+color:var(--text-light);
+
+margin-bottom:20px;
+
+}
+
+.cta-card h2{
+
+font-size:clamp(2.5rem,6vw,4.5rem);
+
+margin-bottom:40px;
+
+font-weight:900;
+
+}
+
+.principal-card{
+
+max-width:1000px;
+
+margin:auto;
+
+}
+
+.section-mini{
+
+letter-spacing:4px;
+
+font-size:.8rem;
+
+font-weight:700;
+
+color:var(--text-light);
+
+margin-bottom:20px;
+
+text-transform:uppercase;
+
+}
+
+.contact-card{
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:space-between;
+
+min-height:300px;
+
+}
+
+.contact-card h3{
+
+margin-bottom:20px;
+
+font-size:1.5rem;
+
+}
