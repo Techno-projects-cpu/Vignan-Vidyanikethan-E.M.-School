@@ -1,0 +1,137 @@
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width:1100px){
+
+.about-grid,
+.features-grid,
+.timeline-container,
+.contact-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.campus-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media (max-width:850px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.navbar{
+
+padding:16px 20px;
+
+}
+
+.hero{
+
+padding-top:140px;
+
+}
+
+.hero h1{
+
+font-size:3.4rem;
+
+letter-spacing:-2px;
+
+}
+
+.hero-description{
+
+font-size:1rem;
+
+}
+
+.about-grid,
+.features-grid,
+.timeline-container,
+.contact-grid,
+.campus-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.footer-top{
+
+flex-direction:column;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.quote-card{
+
+padding:60px 30px;
+
+}
+
+.cta-card{
+
+padding:60px 30px;
+
+}
+
+section{
+
+padding:90px 7%;
+
+}
+
+}
+
+@media (max-width:550px){
+
+.hero h1{
+
+font-size:2.7rem;
+
+}
+
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+width:100%;
+
+}
+
+.hero-buttons{
+
+width:100%;
+
+flex-direction:column;
+
+}
+
+.logo p{
+
+display:none;
+
+}
+
+}
